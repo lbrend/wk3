@@ -38,6 +38,12 @@ border-bottom: 2px solid #000000;
 }
 
 
+tbody th {
+  border:2px solid black;
+  border-top: none;
+}
+
+
 thead th {
 min-width: 125px;
 padding: 10px;
@@ -47,6 +53,7 @@ background-color: #7e0820;
 text-align: center;
   
 }
+
 
 
 
@@ -67,6 +74,7 @@ tbody tr:hover {
 table {
 border-spacing: 0;
 border-right: 2px solid #000;
+/* border-left: 2px solid #000; */
 margin: auto;
 border-radius: 20px;
 overflow: hidden;
@@ -79,7 +87,7 @@ border-top-left-radius: 20px;
 thead th:last-child {
 border-top-right-radius: 20px;
 }
-tbody tr:last-child td:first-child {
+tbody tr:last-child th:first-child {
 border-bottom-left-radius: 20px;
 }
 tbody tr:last-child td:last-child {
